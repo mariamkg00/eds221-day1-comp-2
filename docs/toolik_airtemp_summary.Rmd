@@ -27,7 +27,7 @@ myChart<- ggplot(data = toolik_weather, aes(x=month, y= daily_air_temp_mean_c))+
   geom_jitter(aes(color= daily_air_temp_mean_c))+
   scale_color_gradientn(colors= c("red","yellow", "purple"))
 
-ggsave(here::here('figs',"myChart.jpg"), height =5, width =6)
+# ggsave(here::here('figs',"myChart.jpg"), height =5, width =6)
 ```
 
 - First: Look at the data you've read in (always always)
